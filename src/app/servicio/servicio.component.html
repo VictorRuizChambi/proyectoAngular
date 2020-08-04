@@ -1,0 +1,12 @@
+<h3>Servicios</h3>
+
+<div *ngFor="let servicio of servicios | async">
+    <span>{{ servicio.tipo }}</span>
+    <br>
+    <div>
+        <span> {{ servicio.nombre }}</span>
+    </div>
+    <br>
+    <br>
+    
+</div>
